@@ -1,21 +1,24 @@
 // Groups of CSS properties in Concentric order
 const groups = [
-  ['display'],
   ['all', 'appearance'],
-  ['position'],
-  ['top', 'right', 'bottom', 'left'],
   [
     'flex',
     'flex-basis',
     'flex-grow',
     'flex-shrink',
   ],
-  ['float', 'clear'],
+  ['display'],
+  ['content', 'quotes'],
+  ['width', 'min-width', 'max-width'],
+  ['height', 'min-height', 'max-height'],
   [
     'flex-direction',
     'flex-flow',
     'flex-wrap'
   ],
+  ['position'],
+  ['top', 'right', 'bottom', 'left'],
+  ['float', 'clear'],
   [
     'grid',
     'grid-area',
@@ -88,7 +91,7 @@ const groups = [
     'word-wrap',
     'color'
   ],
-  ['content', 'quotes'],
+  ['padding', 'padding-top', 'padding-right', 'padding-bottom', 'padding-left'],
   [
     'border',
     'border-top',
@@ -101,7 +104,19 @@ const groups = [
     'border-bottom-width',
     'border-left-width'
   ],
-  ['visibility', 'opacity', 'mix-blend-mode', 'isolation', 'z-index'],
+  [
+    'background',
+    'background-attachment',
+    'background-clip',
+    'background-color',
+    'background-image',
+    'background-origin',
+    'background-position',
+    'background-repeat',
+    'background-size',
+    'background-blend-mode'
+  ],
+  ['box-sizing'],
   [
     'outline',
     'outline-offset',
@@ -139,24 +154,7 @@ const groups = [
     'border-image-slice'
   ],
   ['box-shadow'],
-  [
-    'background',
-    'background-attachment',
-    'background-clip',
-    'background-color',
-    'background-image',
-    'background-origin',
-    'background-position',
-    'background-repeat',
-    'background-size',
-    'background-blend-mode'
-  ],
-  ['cursor'],
-  ['padding', 'padding-top', 'padding-right', 'padding-bottom', 'padding-left'],
-  ['width', 'min-width', 'max-width'],
-  ['height', 'min-height', 'max-height'],
   ['overflow', 'overflow-x', 'overflow-y', 'resize'],
-  ['box-sizing'],
   ['margin', 'margin-top', 'margin-right', 'margin-bottom', 'margin-left'],
   [
     'list-style',
@@ -166,6 +164,7 @@ const groups = [
     'caption-side'
   ],
   ['table-layout', 'border-collapse', 'border-spacing', 'empty-cells'],
+  ['opacity', 'mix-blend-mode', 'isolation', 'visibility'],
   [
     'backface-visibility',
     'perspective',
@@ -198,6 +197,8 @@ const groups = [
   ],
   ['counter-reset', 'counter-increment'],
   ['page-break-before', 'page-break-after', 'page-break-inside'],
+  ['z-index'],
+  ['cursor'],
   ['pointer-events', 'will-change']
 ]
 
@@ -205,6 +206,7 @@ const groups = [
 module.exports = {
   plugins: ['stylelint-order'],
   rules: {
+    "order/properties-alphabetical-order": null,
     'order/order': [
       // Imports
       { type: 'at-rule', name: 'import' },
