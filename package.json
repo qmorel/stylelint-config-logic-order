@@ -1,24 +1,24 @@
 {
-  "name": "stylelint-config-concentric-order",
-  "version": "3.4.1",
-  "description": "This Stylelint configuration validates the ordering of CSS properties according to Concentric CSS",
-  "author": "Alvin Chan <no@email.com>",
+  "name": "stylelint-config-logic-order",
+  "version": "1.0.0",
+  "description": "This Stylelint configuration validates the ordering of CSS properties according to a certain logic :D",
+  "author": "Quentin Morel <no@email.com>",
   "license": "ISC",
   "keywords": [
     "stylelint",
     "stylelint-config",
-    "concentric",
+    "logic",
     "order",
     "sort"
   ],
   "main": "src/index.js",
-  "homepage": "https://github.com/chaucerbao/stylelint-config-concentric-order#readme",
+  "homepage": "https://minimo_0@bitbucket.org/minimo_0/stylelint-config-logic-order#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chaucerbao/stylelint-config-concentric-order"
+    "url": "https://minimo_0@bitbucket.org/minimo_0/stylelint-config-logic-order"
   },
   "bugs": {
-    "url": "https://github.com/chaucerbao/stylelint-config-concentric-order/issues"
+    "url": "https://minimo_0@bitbucket.org/minimo_0/stylelint-config-logic-order/issues"
   },
   "files": [
     "src/index.js"
