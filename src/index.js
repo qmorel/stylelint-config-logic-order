@@ -1,23 +1,25 @@
 // Groups of CSS properties in Concentric order
 const groups = [
   ['all', 'appearance'],
+  ['position'],
+  ['top', 'right', 'bottom', 'left'],
   [
     'flex',
     'flex-basis',
     'flex-grow',
     'flex-shrink',
   ],
+  ['justify-self', 'align-self'],
+  ['order'],
   ['display'],
   ['content', 'quotes'],
-  ['width', 'min-width', 'max-width'],
-  ['height', 'min-height', 'max-height'],
+
   [
     'flex-direction',
     'flex-flow',
     'flex-wrap'
   ],
-  ['position'],
-  ['top', 'right', 'bottom', 'left'],
+
   ['float', 'clear'],
   [
     'grid',
@@ -39,10 +41,10 @@ const groups = [
     'grid-row-gap',
     'grid-column-gap'
   ],
-  ['align-content', 'align-items', 'align-self'],
-  ['justify-content', 'justify-items', 'justify-self'],
-  ['order'],
-  ['vertical-align'],
+  ['justify-content', 'justify-items'],
+  ['align-content', 'align-items'],
+  ['height', 'min-height', 'max-height'],
+  ['width', 'min-width', 'max-width'],
   [
     'columns',
     'column-gap',
@@ -55,6 +57,7 @@ const groups = [
     'column-count',
     'column-width'
   ],
+  ['vertical-align'],
   [
     'font',
     'font-family',
@@ -93,18 +96,6 @@ const groups = [
   ],
   ['padding', 'padding-top', 'padding-right', 'padding-bottom', 'padding-left'],
   [
-    'border',
-    'border-top',
-    'border-right',
-    'border-bottom',
-    'border-left',
-    'border-width',
-    'border-top-width',
-    'border-right-width',
-    'border-bottom-width',
-    'border-left-width'
-  ],
-  [
     'background',
     'background-attachment',
     'background-clip',
@@ -116,13 +107,17 @@ const groups = [
     'background-size',
     'background-blend-mode'
   ],
-  ['box-sizing'],
   [
-    'outline',
-    'outline-offset',
-    'outline-width',
-    'outline-style',
-    'outline-color'
+    'border',
+    'border-top',
+    'border-right',
+    'border-bottom',
+    'border-left',
+    'border-width',
+    'border-top-width',
+    'border-right-width',
+    'border-bottom-width',
+    'border-left-width'
   ],
   [
     'border-style',
@@ -152,6 +147,14 @@ const groups = [
     'border-image-outset',
     'border-image-repeat',
     'border-image-slice'
+  ],
+  ['box-sizing'],
+  [
+    'outline',
+    'outline-offset',
+    'outline-width',
+    'outline-style',
+    'outline-color'
   ],
   ['box-shadow'],
   ['overflow', 'overflow-x', 'overflow-y', 'resize'],
