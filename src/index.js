@@ -5,9 +5,9 @@ const groups = [
   ['top', 'right', 'bottom', 'left'],
   [
     'flex',
-    'flex-basis',
     'flex-grow',
     'flex-shrink',
+    'flex-basis',
   ],
   ['justify-self', 'align-self'],
   ['order'],
@@ -168,6 +168,7 @@ const groups = [
   ],
   ['table-layout', 'border-collapse', 'border-spacing', 'empty-cells'],
   ['opacity', 'mix-blend-mode', 'isolation', 'visibility'],
+  ['cursor'],
   [
     'backface-visibility',
     'perspective',
@@ -201,7 +202,6 @@ const groups = [
   ['counter-reset', 'counter-increment'],
   ['page-break-before', 'page-break-after', 'page-break-inside'],
   ['z-index'],
-  ['cursor'],
   ['pointer-events', 'will-change']
 ]
 
