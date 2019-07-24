@@ -68,25 +68,25 @@ body {
   @extend .class;
   @include mixin(1, 2, 3);
   @mixin postcssMixin(4, 5, 6);
-  box-sizing: border-box;
-  display: flex;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
+  display: flex;
+  height: 80%;
+  min-height: 100vh;
+  background: $color;
+  background-blend-mode: multiply;
+  border-radius: 2px;
+  box-sizing: border-box;
   opacity: 0.9;
   mix-blend-mode: difference;
   isolation: isolate;
-  border-radius: 2px;
-  background: $color;
-  background-blend-mode: multiply;
-  height: 80%;
-  min-height: 100vh;
   will-change: transform;
   p {
-    color: var(--secondary-color);
     font-family: serif;
     font-kerning: normal;
+    color: var(--secondary-color);
   }
   span {
     display: grid;
@@ -104,8 +104,8 @@ body {
     }
   }
   @include breakpoint(small) {
-    margin: 10px;
     width: 50%;
+    margin: 10px;
   }
   @mixin breakpoint-up(small) {
     width: 60%;
@@ -113,9 +113,9 @@ body {
   }
   @media (min-width: 768px) {
     appearance: unset;
+    text-align: center;
     border: black solid 1px;
     border-bottom-width: 0;
-    text-align: center;
   }
 }
 `
