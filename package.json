@@ -23,13 +23,8 @@
   "files": [
     "src/index.js"
   ],
-  "prettier": {
-    "semi": false,
-    "singleQuote": true
-  },
   "devDependencies": {
     "ava": "^2.2.0",
-    "prettier": "^1.12.1",
     "stylelint": "^9.2.0"
   },
   "dependencies": {
