@@ -25,12 +25,16 @@
   ],
   "devDependencies": {
     "ava": "^2.2.0",
-    "stylelint": "^9.2.0"
+    "stylelint": "^10.1.0"
   },
   "dependencies": {
     "stylelint-order": "^3.0.1"
   },
   "scripts": {
     "test": "ava"
+  },
+  "peerDependencies": {
+    "stylelint": ">=10.1.0",
+    "stylelint-order": ">=3.0.1"
   }
 }
