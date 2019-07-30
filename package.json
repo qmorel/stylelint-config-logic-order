@@ -41,7 +41,7 @@
     "stylelint": "^9.2.0"
   },
   "dependencies": {
-    "stylelint-order": "^0.8.1"
+    "stylelint-order": "^3.0.1"
   },
   "scripts": {
     "test": "ava",
