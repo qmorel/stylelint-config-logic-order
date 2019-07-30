@@ -6,7 +6,7 @@ This package is inspired by [Stylelint Concentric Order](https://github.com/chau
 
 ## Installation
 ```sh
-npm install --save-dev https://bitbucket.org/minimo_0/stylelint-config-logic-order
+npm install --save-dev https://github.com/qmorel/stylelint-config-logic-order
 ```
 
 ## Usage

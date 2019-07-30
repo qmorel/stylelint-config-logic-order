@@ -12,13 +12,13 @@
     "sort"
   ],
   "main": "src/index.js",
-  "homepage": "https://minimo_0@bitbucket.org/minimo_0/stylelint-config-logic-order#readme",
+  "homepage": "https://github.com/qmorel/stylelint-config-logic-order#readme",
   "repository": {
     "type": "git",
-    "url": "https://minimo_0@bitbucket.org/minimo_0/stylelint-config-logic-order"
+    "url": "https://github.com/qmorel/stylelint-config-logic-order"
   },
   "bugs": {
-    "url": "https://minimo_0@bitbucket.org/minimo_0/stylelint-config-logic-order/issues"
+    "url": "https://github.com/qmorel/stylelint-config-logic-order/issues"
   },
   "files": [
     "src/index.js"
