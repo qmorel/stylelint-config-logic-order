@@ -27,16 +27,8 @@
     "semi": false,
     "singleQuote": true
   },
-  "lint-staged": {
-    "src/**/*.js": [
-      "prettier --write",
-      "git add"
-    ]
-  },
   "devDependencies": {
-    "ava": "^0.25.0",
-    "husky": "^0.14.3",
-    "lint-staged": "^7.1.0",
+    "ava": "^2.2.0",
     "prettier": "^1.12.1",
     "stylelint": "^9.2.0"
   },
@@ -44,7 +36,6 @@
     "stylelint-order": "^3.0.1"
   },
   "scripts": {
-    "test": "ava",
-    "precommit": "lint-staged"
+    "test": "ava"
   }
 }
