@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-logic-order",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This Stylelint configuration validates the ordering of CSS properties according to a certain logic :D",
   "author": "Quentin Morel <no@email.com>",
   "license": "ISC",
