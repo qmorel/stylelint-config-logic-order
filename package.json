@@ -24,14 +24,10 @@
     "src/index.js"
   ],
   "devDependencies": {
-    "ava": "^2.2.0",
-    "stylelint": "^10.1.0"
+    "stylelint": "^13.7.2"
   },
   "dependencies": {
-    "stylelint-order": "^3.0.1"
-  },
-  "scripts": {
-    "test": "ava"
+    "stylelint-order": "^4.1.0"
   },
   "peerDependencies": {
     "stylelint": ">=10.1.0",
